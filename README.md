@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# Consulta de nomes do IBGE!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido na Facudade de Tecnologia da Unicamp, na disciplina de Resolução de Problemas 1.
 
-## Available Scripts
+## Tecnologias utilizadas:  
+- Linguagem principal: Typescript;
+- Framework Frontend: React.JS;
+- Outras tecnologias: HTML, CSS;
+- Requisições: Axios (UM cliente HTTP que se baseia em promises para fazer as requisições);
+- Biblioteca de gráficos: Victory;
+  
+## Autores
+- Aline Almeida Vajalegre
+- Lucas Santana Aguiar
+- Lucas dos Santos
+- Victor Eduardo Zorzan
 
-In the project directory, you can run:
+## Página inicial
+Na página inicial do projeto, ele traz um ranking dos nomes mais populares no Brasil, retirados dinâmicamente da API do IBGE, disponível em https://servicodados.ibge.gov.br/api/docs/nomes?versao=2
 
-### `npm start`
+## Pesquisa por nomes 
+A pesquisa não funciona com nomes compostos e acentuações.
+Os dados são trazidos dinâmicamente desde 1930 até 2010, mostrando o nome, e sua frequência em cada faixa de período desde a data inicial que ele foi registrado.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Como compilar o projeto?
+1- Faça o download do node package manager, mais informações em: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2- Clone o projeto
 
-### `npm test`
+3- Digite `npm start` e abra http://localhost:3000 no navegador
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
