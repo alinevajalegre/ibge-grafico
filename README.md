@@ -25,7 +25,7 @@ Os dados são trazidos dinâmicamente desde 1930 até 2010, mostrando o nome, e 
 ## Como compilar o projeto?
 1- Faça o download do node package manager, mais informações em: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-2- Clone o projeto
+2- Clone o repositório
 
 3- Digite `npm start` e abra http://localhost:3000 no navegador
 
